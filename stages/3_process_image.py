@@ -4,7 +4,7 @@ from pathlib import Path
 from shutil import copyfile
 
 cwd = os.getcwd()
-results_path = os.path.join(cwd, 'results')
+results_path = os.path.join(cwd, '../results')
 encodings = {}
 
 def process_file(filepath):
